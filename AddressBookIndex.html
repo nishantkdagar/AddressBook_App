@@ -25,10 +25,12 @@
             <div class="row-content">
                 <label class="label text" for="name"></label>
                 <input class="input" type="text" id="name" name="name" placeholder="Your Full Name....." required>
+                <error-output class="name-error" for="name"></error-output>
             </div>
             <div class="row-content">
                 <label class="label text" for="Address"></label>
                 <input class="input" type="text" id="address" name="address" placeholder="Address....." required>
+                <error-output class="address-error" for="Address"></error-output>
             </div>
             <div class="row-content">
                 <label class="label text" for="selectCity"></label>
@@ -62,8 +64,10 @@
             <div class="row-content">
                 <label class="label text" for="PhoneNumber"></label>
                 <input class="input" type="number" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" required>
+                <error-output class="number-error" for="tel"></error-output>
             </div>
         </form>
     </div>
+    <script src="AddressBookScript.js"></script>
 </body>
 </html>
