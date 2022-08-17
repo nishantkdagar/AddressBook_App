@@ -35,3 +35,20 @@ body{
     
 }
 *{box-sizing: border-box;}
+.form-content{
+    min-height: calc(200%-100px);
+    background-color: #f7f7f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+}
+
+.form-head{
+    font: normal normal bold 24px/37px Roboto;
+    letter-spacing: 0px;
+    color: #42515f;
+    text-transform: capitalize;
+    opacity: 1;
+    padding-bottom: 20px;
+}
