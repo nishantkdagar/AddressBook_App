@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    height: 200%;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 0px solid;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+.logo-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 0px solid;
+    width: 85%;
+}
+
+.text-address{
+    font: normal normal bold 20px/25px Arial ;
+    font-family: "Arial";
+    letter-spacing: 0px;
+    color: #1779e9;
+    text-transform: capitalize;
+    font-style: bold;
+}
+.text-book{
+    font: normal normal bold 20px/25px Arial ;
+    font-family: "Arial";
+    color: #2d343a;
+    font-style: bold;
+    
+}
+*{box-sizing: border-box;}
