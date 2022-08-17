@@ -18,9 +18,57 @@
         </div>
     </header>
     <div class="form-content">
+        <form class="form" action="#" onsubmit="save();return false">
         <div class="form-head" style="text-align:center;">
             <h2>PERSON ADDRESS FORM</h2>
         </div>
+            <div class="row-content">
+                <label class="label text" for="name"></label>
+                <input class="input" type="text" id="name" name="name" placeholder="Your Full Name....." required>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="Address"></label>
+                <input class="input" type="text" id="address" name="address" placeholder="Address....." required>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="selectCity"></label>
+                <div class="label text">
+                    <select id="selectCity" name="SelectCity">
+                        <option value="Bangalore">Bangalore</option>
+                        <option value="Chennai">Chennai</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Kolkata">Kolkata</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Jaipur">Jaipur</option>
+                        <option value="Hyderabad">Hyderabad</option>
+                        <option value="Lucknow">Lucknow</option>
+                    </select>
+                    <select id="selectState" name="SelectState">
+                        <option value="West Bengal">West Bengal</option>
+                        <option value="Karnataka">Karnataka</option>
+                        <option value="Telangana">Telangana</option>
+                        <option value="TamilNadu">TamilNadu</option>
+                        <option value="Maharashtra">Maharashtra</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Rajasthan">Rajasthan</option>
+                        <option value="UttarPradesh">UttarPradesh</option>
+                    </select>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="ZipCode"></label>
+                <input class="input" type="number" id="ZipCode" name="ZipCode" placeholder="Zip Code....." required>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="PhoneNumber"></label>
+                <input class="input" type="number" id="PhoneNumber" name="PhoneNumber" placeholder="Phone Number" required>
+            </div>
+            <div class="buttonParent">
+                <div class="Add-reset">
+                    <button type="submit" class="button addButton" id="addButton">Add</button>
+                    <button type="reset" class="button resetButton">Reset</button>
+                </div>
+            </div>
         </form>
     </div>
 </body>
